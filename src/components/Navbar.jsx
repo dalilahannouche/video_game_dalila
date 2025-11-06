@@ -4,6 +4,7 @@ import { useWindowScroll } from "react-use";
 import { useEffect, useRef, useState } from "react";
 import { TiLocationArrow } from "react-icons/ti";
 import logo from "../../public/img/logo.png";
+import loop from "../../public/audio/loop.mp3";
 
 import Button from "./Button";
 
@@ -100,12 +101,7 @@ const NavBar = () => {
               onClick={toggleAudioIndicator}
               className="ml-10 flex items-center space-x-0.5"
             >
-              <audio
-                ref={audioElementRef}
-                className="hidden"
-                src="/audio/loop.mp3"
-                loop
-              />
+              <audio ref={audioElementRef} className="hidden" src={loop} loop />
               {[1, 2, 3, 4].map((bar) => (
                 <div
                   key={bar}

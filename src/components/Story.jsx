@@ -1,5 +1,5 @@
 import gsap from "gsap";
-import { useRef } from "react";
+import entrance from "../../public/img/entrance.webp";
 
 import Button from "./Button";
 import AnimatedTitle from "./AnimatedTitle";
@@ -67,7 +67,7 @@ const FloatingImage = () => {
                   onMouseLeave={handleMouseLeave}
                   onMouseUp={handleMouseLeave}
                   onMouseEnter={handleMouseLeave}
-                  src="/img/entrance.webp"
+                  src={entrance}
                   alt="entrance.webp"
                   className="object-contain"
                 />
