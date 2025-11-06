@@ -3,7 +3,7 @@ import gsap from "gsap";
 import { useWindowScroll } from "react-use";
 import { useEffect, useRef, useState } from "react";
 import { TiLocationArrow } from "react-icons/ti";
-import logo from "../assets/logo.png";
+import logo from "../public/img/logo.png";
 
 import Button from "./Button";
 
