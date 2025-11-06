@@ -1,4 +1,5 @@
 import gsap from "gsap";
+import { useRef } from "react";
 import entrance from "../../public/img/entrance.webp";
 
 import Button from "./Button";
