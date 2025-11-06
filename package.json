@@ -1,7 +1,7 @@
 {
   "name": "zentry-videogame",
   "version": "1.0.0",
-  "homepage": "https://dalilahannouche.github.io/video_game_dalila",
+  "homepage": "https://dalilahannouche.github.io/video_game_dalila/",
   "private": true,
   "type": "module",
   "scripts": {
